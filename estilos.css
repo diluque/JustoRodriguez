@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: georgia, times, serif;
+    background-color:   #f7ca02
+    ;
+}
+
+/**********************/
+
+.header {
+    width: 100%;
+    background:#030450;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+
+
+#btn-menu {
+    display: none;
+    
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid #fff;
+}
+
+
+
+.menu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*  **************************   */
+.parallax-completo{
+    /*width: 100%;*/
+    height:100vh;
+    background-image: url('img/0.6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*con esto se fija la imagen*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/**********************************/
+.texto-hero {
+   background: rgba(102, 98, 98, 0.432);      
+    padding: 18px;
+    width: 420px;   
+    border-radius: 15px; 
+}
+
+.anno {
+   text-align: center; 
+   color: rgb(248, 232, 6); /*del contenido*/
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 500px;
+   font-size: 75px;
+
+}
+
+.texto-hero h2{
+   font-size: 32px;
+   font-weight: 300; 
+}
+
+.texto-hero h2:hover{
+    font-size: 44px;
+    font-weight: 320; 
+ }
+/*seccion2*/
+.conocelo {
+    color: rgb(29, 6, 110);
+    font-size: 45px;
+    font-family: cursive;
+}
+.conoce {
+    color: rgb(26, 87, 87);
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.expe {
+    color: rgb(26, 87, 87);
+    font-size: 30px;
+    font-family: cursive;
+}
+/*seccion3*/
+
+.proyecto{
+    color: rgb(252, 227, 5);
+    font-size: 20px;
+    font-family: cursive;
+}
+/*.texto-hero{
+    background: #111;
+    padding: 18px;
+    width: 320px;
+    text-align: center;
+    color: #fff;
+}
+*/
+h2{
+    font-size:32px;
+    font-weight: 300;
+}
+
+.center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.espacio{
+    padding: 30px 0 60px 0;
+}
+
+.espacio h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.espacio p{
+    text-align: justify;
+}
+
+.parallax-chico{
+    height: 450px;
+    background-image: url(img/israelpy.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax-chico h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: rgb(43, 2, 39);
+    font-weight: 400;
+    
+}
+
+.texto{
+    background: rgb(22, 3, 107);
+    height:190px;
+}
+
+.texto h2{
+    text-align: center;
+    color: rgb(248, 232, 2);
+    display: flex;
+    height:inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.busca {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.parallaxe {
+    height: 450px;
+    background-image: url(img/Paraguay.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallaxe h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+/******************************************/
+.uno {
+    height: 450px;
+    background-image: url(img/2/1arborizacion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.uno h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+/******************************************/
+.dos {
+    height: 450px;
+    background-image: url(img/2/2industrial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dos h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+/******************************************/
+.tres {
+    height: 450px;
+    background-image: url(img/2/3vial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tres h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+/******************************************/
+.cuatro {
+    height: 450px;
+    background-image: url(img/2/4horticultura.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cuatro h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+/******************************************/
+.cinco {
+    height: 450px;
+    background-image: url(img/2/5guarderia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cinco h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.seis {
+    height: 450px;
+    background-image: url(img/2/6adictos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.seis h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.siete {
+    height: 450px;
+    background-image: url(img/2/7salud.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.siete h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.ocho {
+    height: 450px;
+    background-image: url(img/2/8restaurar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ocho h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.nueve {
+    height: 450px;
+    background-image: url(img/2/9teatro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nueve h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.diez {
+    height: 450px;
+    background-image: url(img/2/10niños.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.diez h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.once {
+    height: 450px;
+    background-image: url(img/2/11ciudadanos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.once h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.doce {
+    height: 450px;
+    background-image: url(img/2/12niños.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.doce h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.trece {
+    height: 450px;
+    background-image: url(img/2/13codeni.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.trece h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+
+/******************************************/
+
+.catorce {
+    height: 450px;
+    background-image: url(img/2/14luque.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.catorce h2 {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+/******************************************/
+.partido d {
+    color: rgb(29, 6, 110);
+    font-size: 45px;
+    font-family: cursive;
+}
+.pdcp {
+    color: rgb(26, 87, 87);
+    font-size: 25px;
+    font-family: cursive;
+}
+/******************************************/
+.footer {
+   background: #404044;
+   padding: 1.5rem 0;
+   text-align: center;
+   
+}
+
+/******************************************/
+:root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --whatsapp: #007785;
+}
+
+.redes-container {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 5px;
+    widt
+}
+/******************************************/
+/* responsive*/
+
+@media (max-width:768px) {
+    header label {
+        display: block;
+}
+
+.menu {
+    position: absolute;
+    background: #030450;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.3s;
+}
+
+.menu ul {
+    flex-direction: column;
+}
+
+#btn-menu:checked ~ .menu {
+    margin: 0;
+}
+
+.menu li {
+    border-top: 1px solid #fff;
+}
+
+
+/***********************/
+
+.parallax-completo{
+    width: 100%;
+    height:100vh;
+    background-image: url('img/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*con esto se fija la imagen*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
